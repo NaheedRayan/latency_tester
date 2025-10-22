@@ -5,8 +5,9 @@ Minimal Next.js 16 (App Router) app to benchmark PostgreSQL read/write latency.
 Setup
 
 1. Copy `.env.example` to `.env` and set `DATABASE_URL`.
-2. npm install
-3. npm run dev
+2. Use Node.js >= 20.9.0.
+3. npm install
+4. npm run dev
 
 Open http://localhost:3000 and click "Run Latency Test".
 
